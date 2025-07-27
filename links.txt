@@ -1,0 +1,8 @@
+https://www.rdkit.org/docs/source/rdkit.Chem.rdFingerprintGenerator.html
+
+https://www.rdkit.org/docs/GettingStartedInPython.html#reading-and-writing-molecules
+
+https://scikit-mol.readthedocs.io/en/latest/notebooks/04_standardizer/ 
+
+https://scikit-mol.readthedocs.io/en/latest/notebooks/06_hyperparameter_tuning/ 
+

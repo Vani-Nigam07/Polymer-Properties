@@ -1,18 +1,21 @@
-# Configuration settings
 data:
-  raw_csv_path: D:/IIT BBS/Job Resources/Riverline\Riverline_NBA_system/data/raw/twcs.csv
-  sqlite_db_path: D:/IIT BBS/Job Resources/Riverline\Riverline_NBA_system/data/processed/tweets.db
-  new_raw_csv_path: D:/IIT BBS/Job Resources/Riverline/Riverline_NBA_system/data/raw/new_tweets.csv
-
-sqlite:
-  raw_table: raw_tweets
-  interaction_table: interaction_table
-  user_behaviour_tags_table: user_behaviour_tags
-  new_raw_table: new_raw_tweets
-  new_interaction_table: new_interaction_table
+  raw_train_csv: D:\Skills\new\NeurIPS2\data\train.csv
+  raw_test_csv: D:\Skills\new\NeurIPS2\data\test.csv
+  ffv_csv: D:\Skills\new\NeurIPS2\data\train_supplement\FFV.csv
+  TC_csv: D:\Skills\new\NeurIPS2\data\train_supplement\TC.csv
+  TG_csv : D:\Skills\new\NeurIPS2\data\train_supplement\TG.csv
+  test_supplement_csv: D:\Skills\new\NeurIPS2\data\train_supplement\test_supplement.csv
 
 output:
-  parsed_conversations_path: D:/IIT BBS/Job Resources/Riverline/Riverline_NBA_system/outputs/json/new_parsed_conversations.json
-  tagged_conversations_path: D:/IIT BBS/Job Resources/Riverline/Riverline_NBA_system/outputs/json/new_tagged_conversations.json
-  resolved_chat_log_csv: D:/IIT BBS/Job Resources/Riverline/Riverline_NBA_system/outputs/csv/nba_actions_log.csv
-  flow_clusters_csv: "D:/IIT BBS/Job Resources/Riverline/Riverline_NBA_system/outputs/csv/conversation_flow_clusters.csv"
+  ffv_merged_csv: D:\Skills\new\NeurIPS2\outputs\csv\ffv_merged.csv
+  Tc_csv: D:\Skills\new\NeurIPS2\outputs\csv\Tc_cleaned.csv
+  Tg_csv: D:\Skills\new\NeurIPS2\outputs\csv\Tg_cleaned.csv
+
+  rdkit_ffv_meta:  D:\Skills\new\NeurIPS2\outputs\csv\rdkit_ffv_meta.csv
+  rdkit_ffv: D:\Skills\new\NeurIPS2\outputs\torch_tensor\rdkit_ffv.pt
+  seflies: D:\Skills\new\NeurIPS2\outputs\torch_tensor\selfies.pt
+
+  
+
+models: #pre trained or trained (.pt, .keras, .pkl, .py  etc.)
+  
