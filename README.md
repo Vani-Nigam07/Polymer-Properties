@@ -14,7 +14,7 @@ This project supports the **Open Polymer Prediction 2025** initiative by leverag
 We predict **five key physical properties** from SMILES strings:
 -  **Density**
 -  **Thermal conductivity (Tc)**
-- ❄ **Glass transition temperature (Tg)**
+-  **Glass transition temperature (Tg)**
 -  **Radius of gyration (Rg)**
 -  **Fractional free volume (FFV)**
 
